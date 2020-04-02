@@ -1,6 +1,5 @@
 html {
   font-size: 16px;
-  font-family: 'Quando', sans-serif;
 }
 
 body {
@@ -8,6 +7,11 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: lightsteelblue;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
 }
 
 .red {color: #ff5757;}
@@ -31,7 +35,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   width: 100%;
   height: 6rem;
 }
@@ -76,18 +80,21 @@ nav li:hover {
   nav { display: none; }
 }
 
-/*************  Generator/Main  **************/
 
-.top {
+.top, .bottom {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 90%;
   text-align: center;
   margin-bottom: 2rem;
   height: auto;
   padding: 3rem;
+}
+/*************  Generator/Main  **************/
+
+.top {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .tagline {
@@ -160,7 +167,29 @@ nav li:hover {
   }
 }
 
+/********** BOTTOM SIGNUP SECTION **************/
 
+.bottom {
+  flex-direction: column;
+
+}
+
+.bottom h3 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: #38b6ff;
+}
+
+.bottom img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+/***********************************************/
 
 .btn__new {
   margin-top: 2rem;
@@ -181,6 +210,99 @@ nav li:hover {
   color: #fff;
   transform: scale(1.2);
 }
+
+/**************** SIGNUP FORM *****************/
+
+#mc_embed_signup {
+  background-color: #38b6ff;
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#mc_embed_signup_scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#mc_embed_signup_scroll input {
+  height: auto;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1177px) {
+  #mc_embed_signup_scroll input {
+    font-size: 1rem;
+  }
+}
+
+#mc_embed_signup_scroll .email {
+  text-align: center;
+  width: 35%;
+  font-weight: bold;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+#mc_embed_signup_scroll .button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  height: 4rem;
+}
+
+@media only screen and (max-width: 730px) {
+  #mc_embed_signup {
+    width: 60%;
+  }
+
+  #mc_embed_signup_scroll {
+    flex-direction: column;
+  }
+  
+  #mc_embed_signup_scroll input {
+    font-size: 0.6rem;
+  }
+
+  #mc_embed_signup_scroll .email {
+    margin-right: 0;
+    margin-bottom: 0.6rem;
+    height: 2rem;
+  }
+
+  #mc_embed_signup_scroll .button {
+    height: 2rem;
+  }
+
+}
+
+#mc_embed_signup_scroll .button:hover {
+  background-color: #ff5757;
+  color: #fff;
+  cursor: pointer;
+}
+
+/********** PROMO SECTION **************/
+
+/********** FOOTER **************/
+
+footer {
+  padding: 2rem 0;
+  font-family: 'Open sans', sans-serif;
+  color: gray;
+  text-align: center;
+}
+
+footer a:hover {
+  background-color: lightpink;
+}
+
+/********** MISCELLANEOUS **************/
 
 #arrow-icon {
   color: #ff5757;

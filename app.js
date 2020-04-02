@@ -61,11 +61,10 @@ var UIController = (function() {
       document.querySelector(DOMstrings.container).textContent = arr[index];
       
     },
-
+    
     clearField: function() {
-      var field = document.querySelector('.idea__input');
+      var field = document.getElementById('mce-EMAIL');
       field.value = '';
-      field.focus();
     },
 
     transformArrowIcon: function() {
@@ -86,6 +85,8 @@ var controller = (function(dataCtrl, UICtrl) {
   // 1. Set up event listeners
   var setUpEventListeners = function() {
     document.querySelector(DOM.newIdeaBtn).addEventListener('click', ctrlDisplayNewIdea);
+
+    document.querySelector('.button').addEventListener('click', subscribeClearInput);
   };
 
   var ctrlDisplayNewIdea = function() {
@@ -99,11 +100,15 @@ var controller = (function(dataCtrl, UICtrl) {
     UICtrl.transformArrowIcon();
   };
 
+  var subscribeClearInput = function() {
+    UIController.clearField();
+  }
+
   // Problem with ctrlAddIdea: it works but it seems like I need a database for the submittedIdeas and to prevent the array from emptying out once the page is refreshed
 
   return {
     init: function() {
-      setUpEventListeners()
+      setUpEventListeners();
     }
   }
 
