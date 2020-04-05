@@ -170,6 +170,25 @@ nav li:hover {
   }
 }
 
+.btn__new {
+  margin-top: 2rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  background-color: #38b6ff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+  transition: transform 0.5s ease;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn__new:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
 /********** BOTTOM SIGNUP SECTION **************/
 
 .bottom {
@@ -193,26 +212,6 @@ nav li:hover {
 }
 
 /***********************************************/
-
-.btn__new {
-  margin-top: 2rem;
-  padding: 0.8rem;
-  font-size: 1.2rem;
-  color: #38b6ff;
-  border-radius: 5px;
-  transition: background-color 1s ease;
-  transition: transform 1s ease;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.btn__new:hover {
-  cursor: pointer;
-  background-color: #38b6ff;
-  color: #fff;
-  transform: scale(1.2);
-}
 
 /**************** SIGNUP FORM *****************/
 
