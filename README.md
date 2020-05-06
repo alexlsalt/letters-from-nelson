@@ -66,13 +66,13 @@ Once completed, they'll be set to receive the weekly Letters from Nelson newslet
             UICtrl.transformArrowIcon();
            };
 
-            var subscribeClearInput = function() {
+         var subscribeClearInput = function() {
             UIController.clearField();
-            }
+           };
 
     
 - Use of Font Awesome icons within 'New idea' button to rotate 180° upon click
 
         transformArrowIcon: function() {
             document.getElementById('arrow-icon').classList.toggle('rotated');
-        }
+        };
