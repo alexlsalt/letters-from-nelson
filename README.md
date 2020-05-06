@@ -36,7 +36,7 @@ From the landing page, the random idea generator in the main section of the page
 listed idea strings. The functionality of clicking the 'New idea' button deploys a function that randomly grabs an idea from the 
 ideas array.
 
-displayIdea: function(arr) {
+``displayIdea: function(arr) {
     var index = Math.floor(Math.random() * arr.length);
      document.querySelector(DOMstrings.container).textContent = arr[index]
     }
