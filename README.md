@@ -18,16 +18,16 @@ Letters from Nelson is a weekly newsletter that includes ideas for fun activitie
 
 Here are some examples of past ideas:
 
-⭐️ Having an indoor picnic
-⭐️ Writing and sending a letter to a pen-pal
-⭐️ Visiting a national park (virtually)
-⭐️ Creating and going on a treasure hunt
-⭐️ Creating a flower collage or sketch
-⭐️ Visiting an exhibit at the Museum of Modern Art in Paris (virtually)
-⭐️ Writing a poem whose lines begin with the letters in your name
-⭐️ Writing and illustrating your own fairytale booklet
-⭐️ Building a living room fort and having a movie night inside
-⭐️ Visiting the Monterey Bay Aquarium (virutally) via live cams
+-⭐️ Having an indoor picnic
+-⭐️ Writing and sending a letter to a pen-pal
+-⭐️ Visiting a national park (virtually)
+-⭐️ Creating and going on a treasure hunt
+-⭐️ Creating a flower collage or sketch
+-⭐️ Visiting an exhibit at the Museum of Modern Art in Paris (virtually)
+-⭐️ Writing a poem whose lines begin with the letters in your name
+-⭐️ Writing and illustrating your own fairytale booklet
+-⭐️ Building a living room fort and having a movie night inside
+-⭐️ Visiting the Monterey Bay Aquarium (virutally) via live cams
 
 
 ### How it works
