@@ -49,4 +49,30 @@ Once completed, they'll be set to receive the weekly Letters from Nelson newslet
 ## Features
 
 - Use of a module pattern within app.js file to control click events and displaying new idea from an array
+
+        var setUpEventListeners = function() {
+            document.querySelector(DOM.newIdeaBtn).addEventListener('click', ctrlDisplayNewIdea);
+            document.querySelector('.button').addEventListener('click', subscribeClearInput);
+        };
+
+        var ctrlDisplayNewIdea = function() {
+            // 3. Get ideas from dataCtrl
+            var ideas = dataCtrl.getIdeas();
+
+            // 4. Display one random idea from ideas array
+            UICtrl.displayIdea(ideas);
+
+            // 5. Arrow interaction
+            UICtrl.transformArrowIcon();
+           };
+
+            var subscribeClearInput = function() {
+            UIController.clearField();
+            }
+
+    
 - Use of Font Awesome icons within 'New idea' button to rotate 180° upon click
+
+        transformArrowIcon: function() {
+            document.getElementById('arrow-icon').classList.toggle('rotated');
+        }
