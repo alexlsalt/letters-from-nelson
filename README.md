@@ -39,7 +39,7 @@ ideas array.
 ``displayIdea: function(arr) {
     var index = Math.floor(Math.random() * arr.length);
      document.querySelector(DOMstrings.container).textContent = arr[index]
-    }
+    }``
 
 From an email sign-up perspective, users will enter their email address, click 'Subscribe,' and be redirected to a Mailchimp page to complete
 the signup process.
