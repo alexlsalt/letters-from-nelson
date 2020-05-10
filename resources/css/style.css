@@ -345,6 +345,10 @@ nav li:hover {
 
 /********** PROMO SECTION **************/
 
+.promo {
+  margin-top: 2rem;
+}
+
 @media only screen and (max-width: 1040px) {
   .promo img {
     display: none;
